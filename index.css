@@ -1,0 +1,197 @@
+.font2{
+	background-color: #232f3e;
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+}
+a{
+	padding: 64px;
+	font-size: 14px;
+	text-align: center;
+}
+body{
+margin-top: 128px;
+font-family: 'Comfortaa', cursive;
+}
+.blanc{
+	background-color: white;
+}
+h1{
+	color:white;
+	text-decoration: underline;
+
+}
+.centerImage{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+.first-button a {
+    position: relative;
+    padding: 25px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #03e9f4; 
+    background-color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.75s;
+    letter-spacing: 4px;
+    overflow: hidden; 
+}
+.first-button a:hover{
+    background: #03e9f4; color: #050801;
+}
+.first-button a span{
+    position: absolute;
+    display: block;
+}
+.first-button a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+    animation: animate1 1.25s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -50%;
+    }
+    50%,100%{
+        left: 50%;
+    }
+}
+.first-button a span:nth-child(2){
+    top: -50%; right: 0;
+    width: 2px; height: 50%;
+    background: linear-gradient(180deg,transparent,#03e9f4);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.50s;
+}
+@keyframes animate2{
+    0%{ top: -50%; }
+    50%,100%{ top: 50%; }
+}
+.first-button a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#03e9f4);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate3{
+    0%{
+        right: -50%;
+    }
+    50%,100%{
+        right: 50%;
+    }
+}
+.first-button a span:nth-child(4){
+    bottom: -50%;
+    left: 0;
+    width: 2px;
+    height: 50%;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: animate4 1s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -50%;
+    }
+    50%,100%{
+        bottom: 50%;
+    }
+}
+
+
+
+
+
+
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #13b9f0;
+	background:linear-gradient(to bottom, #75c3e0 5%, #5fa0e6 100%);
+	background-color:#75c3e0;
+	border-radius:15px;
+	border:1px solid #7b84eb;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family: 'Comfortaa', cursive;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #5fa0e6 5%, #75c3e0 100%);
+	background-color:#5fa0e6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+.third {
+    border-color: rgb(54, 87, 235);
+    color: white;
+    box-shadow: 0 0 40px 40px rgb(54, 87, 235) inset, 0 0 0 0 rgb(54, 87, 235);
+    transition: all 150ms ease-in-out;
+}
+    
+.third:hover {
+      box-shadow: 0 0 10px 0 rgb(54, 87, 235) inset, 0 0 10px 4px rgb(54, 87, 235);
+      color: rgb(133, 134, 226);
+    }
+
+    .btn {
+        box-sizing: border-box;
+        appearance: none;
+        background-color: transparent;
+        border: 2px solid blue;
+        border-radius: 0.6em;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1;
+        margin: 20px;
+        padding: 1.2em 2.8em;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Comfortaa', cursive;
+        font-weight: 700;
+    }
+      
+    .btn:hover, .btn:focus {
+          outline: 0;
+        }
+
+
+
+

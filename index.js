@@ -1,5 +1,5 @@
 // Source code to interact with smart contract
-
+//var Contract = require('web3-eth-contract');
 // web3 provider with fallback for old version
 window.addEventListener('load', async () => {
     // New web3 provider
@@ -34,7 +34,7 @@ window.addEventListener('load', async () => {
   // const signer = provider.getSigner();
   // const contract = new ethers.Contract(contractAddress, XXX.abi, signer);
   */
-  var contractAddress = '0xa131AD247055FD2e2aA8b156A11bdEc81b9eAD95';
+  var contractAddress = '0xf63a8a040d98598994e9E611bD5c5BCCe49835C1';
   var abi = JSON.parse( '[{"inputs": [],"name": "enter","outputs": [],"stateMutability": "payable","type": "function"},{"inputs": [],"name": "getBalance","outputs": [{"internalType": "uint256","name": "","type": "uint256"}],"stateMutability": "view","type": "function"},{"inputs": [],"name": "getEntries","outputs": [{"internalType": "address[]","name": "","type": "address[]"}],"stateMutability": "view","type": "function"},{"inputs": [],"name": "pickWinner","outputs": [{"internalType": "address","name": "","type": "address"}],"stateMutability": "nonpayable","type": "function"}]' );
   
   //contract instance
